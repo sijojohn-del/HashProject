@@ -1,0 +1,65 @@
+timeout: 30
+
+expectedTitle: audifyMusicPlayer
+
+elements:
+    playlist:
+        findBy: xpath
+        locator: //android.widget.TextView[@text="Playlist"]
+    textNewPlayList:
+        findBy: xpath
+        locator: //android.widget.TextView[@text="New PlayList"] 
+    playlistTitles:
+        findBy: id
+        locator: tvTile
+    playList3Dots:
+        findBy: id
+        locator: ivMenu    
+    ImageRecentlyAdded:
+        findBy: id
+        locator: cvLas
+    textFavourite:
+        findBy: xpath
+        locator: android.widget.TextView[@text="Favourite"]
+    textMostPlayed:
+        findBy: xpath
+        locator: //android.widget.TextView[@text="Most Played"]
+    iconSearch:
+        findBy: id
+        locator: ivSearch
+    iconLeftDrawer:
+        findBy: id
+        locator: ivSort
+    icon3Dots:
+        findBy: id
+        locator: ivOptionMenu
+    topHeadingLeftDrawer:
+        findBy: id
+        locator: tvTitle 
+    topSearch:
+        findBy: id
+        locator: etSearch 
+    categoriesSearchScreen:
+        findBy: xpath
+        locator: //androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout/android.widget.TextView 
+    btnSearchBack:
+        findBy: id
+        locator: ivBack   
+    txtPopUpMenu:
+        findBy: id
+        locator: title                                
+    dialogBoxCreateNewPlaylist:
+        findBy: id
+        locator: create_new_playlist
+    editTxtPlaylistName:
+        findBy: id
+        locator: etPlayListName  
+    btnCreateNew:
+        findBy: id
+        locator: btnDone   
+    btnDeletePlayList:
+        findBy: xpath
+        locator: //android.widget.FrameLayout//android.widget.ListView//android.widget.LinearLayout 
+    btnDelete:
+        findBy: id
+        locator: btnDelete                

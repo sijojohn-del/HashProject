@@ -1,0 +1,14 @@
+# test environment
+test-configuration: androidphone-dw
+
+# AUT app builds
+test_app:
+    android:
+        file: 
+        activity: com.musicplayer.playermusic.activities.SplashActivity
+ 
+# environment and specs
+page_spec_file_root: pageSpecs
+
+#Test environment for Service
+test-env: CERT

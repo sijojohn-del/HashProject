@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.331496">
+<testcase classname="To verify Playlist Functionalities" name="[P_16]To verify user is able to create new playlist by entering the valid input" time="46.331496">
+<system-out><![CDATA[When I click on the Playlist option from the Upper bar......................passed
+When I click on the New Playlist to Create new playlist.....................passed
+When I enter "Test" in the name field.......................................passed
+When I click on the Create new button.......................................passed
+Then I am able to successfully create the new playlist named "Test".........passed
+]]></system-out>
+</testcase>
+</testsuite>

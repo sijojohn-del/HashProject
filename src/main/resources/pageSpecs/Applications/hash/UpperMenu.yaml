@@ -1,0 +1,11 @@
+timeout: 30
+
+expectedTitle: audifyMusicPlayer
+
+elements:
+    allowpermission:
+        findBy: xpath
+        locator: "//android.widget.Button[@text='Allow']"
+    playlist:
+        findBy: xpath
+        locator: //android.widget.TextView[@text="Playlist"]
